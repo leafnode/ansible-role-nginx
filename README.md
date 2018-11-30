@@ -27,13 +27,13 @@ nginx_freebsd_pkg:
 nginx_suse_pkg:
   - nginx
 
-nginx_install_epel_repo: True
+nginx_install_epel_repo: true
 
-nginx_official_repo: False
-nginx_official_repo_mainline: False
-nginx_ubuntu_ppa: False
+nginx_official_repo: false
+nginx_official_repo_mainline: false
+nginx_ubuntu_ppa: false
 
-keep_only_specified: False
+keep_only_specified: false
 
 nginx_installation_type: "packages"
 nginx_binary_name: "nginx"
@@ -80,3 +80,7 @@ nginx_daemon_mode: "on"
 nginx_server_names_hash_bucket_size: 64
 
 ```
+
+# Development
+
+Please check [development guide](DEVELOPMENT.md) for details about developing and testing this role.
