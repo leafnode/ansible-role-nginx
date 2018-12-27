@@ -1,6 +1,6 @@
 # nginx
 
-[![Build Status](https://travis-ci.com/iroquoisorg/ansible-role-nginx.svg?branch=master)](https://travis-ci.com/iroquoisorg/ansible-role-memcached)
+[![Build Status](https://travis-ci.com/iroquoisorg/ansible-role-nginx.svg?branch=master)](https://travis-ci.com/iroquoisorg/ansible-role-nginx)
 
 Ansible role for nginx
 
@@ -13,7 +13,7 @@ This role was prepared and tested for Ubuntu 16.04.
 # Default settings
 
 ```
-
+---
 nginx_redhat_pkg:
   - nginx
 
