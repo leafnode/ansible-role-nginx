@@ -1,14 +1,14 @@
 ---
 galaxy_info:
   role_name: nginx
-  author: iroquoisorg
+  author: leafnode
   description: role for nginx
   license: BSD
   min_ansible_version: 2.5.4  # tested on this version, might work on older versions
   platforms:
     - name: Ubuntu
       versions:
-        - 16.04
+        - focal
   galaxy_tags: []
 
 dependencies: []
