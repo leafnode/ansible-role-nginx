@@ -3,10 +3,6 @@ language: python
 python: "3.8"
 dist: focal
 sudo: required
-addons:
-  apt:
-    sources:
-      - docker: "deb https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 services:
   - docker
 env:
@@ -14,8 +10,7 @@ env:
 
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -o Dpkg::Options::="--force-confold" --force-yes -y docker-ce
-
+  
 install:
   # Install Ansible.
   - pip install ansible==2.9.13
