@@ -3,7 +3,7 @@ nginx_redhat_pkg:
   - nginx
 
 nginx_ubuntu_pkg:
-  - python-selinux
+  - python3-selinux
   - nginx
 
 nginx_freebsd_pkg:
