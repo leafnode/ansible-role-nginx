@@ -1,8 +1,12 @@
 ---
 language: python
-python: "2.7"
+python: "3.8"
 dist: focal
 sudo: required
+addons:
+  apt:
+    sources:
+      - docker: "deb https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 services:
   - docker
 env:
