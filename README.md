@@ -1,14 +1,14 @@
 # nginx
 
-[![Build Status](https://travis-ci.com/iroquoisorg/ansible-role-nginx.svg?branch=master)](https://travis-ci.com/iroquoisorg/ansible-role-nginx)
+[![Build Status](https://travis-ci.com/leafnode/ansible-role-nginx.svg?branch=master)](https://travis-ci.com/leafnode/ansible-role-nginx)
 
 Ansible role for nginx
 
-This role was prepared and tested for Ubuntu 16.04.
+This role was prepared and tested for Ubuntu 20.04.
 
 # Installation
 
-`$ ansible-galaxy install iroquoisorg.nginx`
+`$ ansible-galaxy install leafnode.nginx`
 
 # Default settings
 
